@@ -1,0 +1,60 @@
+.footer {
+  width: 80%;
+  background-color: black;
+  padding: 40px 10%;
+  z-index: 99; }
+  .footer .logo-porte {
+    width: 90px;
+    margin-left: calc(50% - 45px); }
+  .footer .sociais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .footer .sociais img {
+      cursor: pointer;
+      margin: 50px 8%;
+      width: 30px;
+      height: 28px; }
+      .footer .sociais img:hover {
+        opacity: 0.6; }
+  .footer .colunas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-left: 30px;
+    font-family: Roboto-Regular; }
+    .footer .colunas .coluna {
+      margin: 50px;
+      width: 150px; }
+      .footer .colunas .coluna .coluna-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        margin-bottom: 15px;
+        position: relative; }
+        .footer .colunas .coluna .coluna-title::after {
+          content: '';
+          width: 8px;
+          height: 1px;
+          background-color: white;
+          position: absolute;
+          left: 1px;
+          top: 22px; }
+      .footer .colunas .coluna .coluna-link {
+        font-size: 12px;
+        font-family: Roboto-Light;
+        letter-spacing: 1.2px;
+        margin-bottom: 8px;
+        cursor: pointer; }
+        .footer .colunas .coluna .coluna-link:hover {
+          opacity: 0.8; }
+
+@media only screen and (max-width: 1024px) {
+  .footer .sociais img {
+    margin: 35px 10px; }
+  .footer .colunas {
+    margin: 0;
+    display: block; }
+    .footer .colunas .coluna {
+      margin: 30px 0px; } }

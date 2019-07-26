@@ -1,0 +1,30 @@
+.line-center {
+  position: absolute;
+  top: calc(100vh - 80px);
+  width: 1px;
+  height: 6500px;
+  background-color: #e50021;
+  left: calc(50% - 0.5px);
+  font-family: Roboto-Light;
+  z-index: -9; }
+  .line-center .ball-top {
+    width: 10px;
+    height: 10px;
+    background-color: #e50021;
+    position: absolute;
+    left: calc(50% - 5px);
+    border-radius: 50%; }
+    .line-center .ball-top::after {
+      content: 'SAIBA MAIS';
+      color: white;
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      font-size: 12px;
+      width: 200px;
+      font-family: Roboto-Regular; }
+
+@media only screen and (max-width: 1024px) {
+  .line-center {
+    left: 10%;
+    height: 4500px; } }

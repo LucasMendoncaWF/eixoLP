@@ -1,0 +1,91 @@
+.banner-inicial {
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(133deg, #B2CCE3, #409AC7);
+  margin-top: 20px;
+  z-index: 0;
+  position: relative; }
+  .banner-inicial .line {
+    position: absolute;
+    top: calc(100vh - 80px);
+    width: 1px;
+    background-color: #e50021;
+    left: calc(50% - 0.5px);
+    height: 100%;
+    z-index: 5; }
+    .banner-inicial .line .ball-top {
+      width: 10px;
+      height: 10px;
+      background-color: #e50021;
+      position: absolute;
+      left: calc(50% - 5px);
+      border-radius: 50%; }
+      .banner-inicial .line .ball-top::after {
+        content: 'SAIBA MAIS';
+        color: white;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        font-size: 12px;
+        width: 200px;
+        font-family: Roboto-Light; }
+  .banner-inicial .banner-inicial-img {
+    width: 70%;
+    margin-left: 15%;
+    height: calc(100vh - 100px);
+    position: relative; }
+    .banner-inicial .banner-inicial-img .logo-inicio {
+      width: 100%;
+      position: absolute;
+      top: 40px; }
+    .banner-inicial .banner-inicial-img .modelo-inicio {
+      width: 100%;
+      position: absolute;
+      top: -40px; }
+    .banner-inicial .banner-inicial-img .text-inicio {
+      position: absolute;
+      top: calc(64% - 20px);
+      color: white;
+      font-family: Roboto-Light;
+      font-size: 14px;
+      width: 240px;
+      right: 20%; }
+  .banner-inicial .text-line-banner {
+    position: absolute;
+    bottom: 300px;
+    width: 100%; }
+    .banner-inicial .text-line-banner .text-line-desc {
+      color: white;
+      font-family: Roboto-Light;
+      position: absolute;
+      left: calc(50% - 260px);
+      font-size: 27px;
+      top: -25px;
+      text-align: right; }
+    .banner-inicial .text-line-banner .text-line-ball {
+      width: 15px;
+      height: 15px;
+      background-color: #e50021;
+      position: absolute;
+      left: calc(50% - 7.5px);
+      border-radius: 50%; }
+  @media only screen and (max-width: 1024px) {
+    .banner-inicial .line {
+      left: 10%;
+      top: calc(100vh - 150px); }
+    .banner-inicial .banner-inicial-img .modelo-inicio {
+      top: 10px; }
+    .banner-inicial .text-line-banner {
+      bottom: unset;
+      top: calc(100vh - 60px); }
+      .banner-inicial .text-line-banner .text-line-desc {
+        left: calc(10% + 30px);
+        width: calc(90% - 30px);
+        text-align: left;
+        font-size: 20px; }
+      .banner-inicial .text-line-banner .text-line-ball {
+        left: calc(10% - 7.5px); }
+    .banner-inicial .banner-inicial-img .text-inicio {
+      right: 0px;
+      font-size: 18px;
+      position: relative; } }

@@ -1,0 +1,59 @@
+.slider {
+  width: 800px;
+  margin: 100px 0px;
+  margin-left: calc(50% - 400px);
+  height: 450px;
+  position: relative; }
+  .slider .left-arrow, .slider .right-arrow {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(50% - 22px);
+    width: 42px;
+    height: 42px;
+    z-index: 9;
+    transition: 0.4s; }
+    .slider .left-arrow:hover, .slider .right-arrow:hover {
+      cursor: pointer;
+      opacity: 0.7;
+      transform: scale(1.2); }
+  .slider .left-arrow {
+    background-image: url(../../images/seta-esquerda.png);
+    left: -30px; }
+  .slider .right-arrow {
+    background-image: url(../../images/seta-direita.png);
+    right: -30px; }
+  .slider .slider-balls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px; }
+    .slider .slider-balls .ball {
+      border: 2px solid #747474;
+      width: 10px;
+      height: 10px;
+      margin: 0px 5px;
+      border-radius: 50%;
+      cursor: pointer; }
+      .slider .slider-balls .ball.ativo .inner-ball {
+        background-color: #747474;
+        width: 8px;
+        height: 8px;
+        margin: 1px;
+        border-radius: 50%; }
+      .slider .slider-balls .ball:hover .inner-ball {
+        background-color: #747474;
+        width: 8px;
+        height: 8px;
+        margin: 1px;
+        border-radius: 50%;
+        opacity: 0.7; }
+
+@media only screen and (max-width: 1024px) {
+  .slider {
+    width: calc(100% - 65px);
+    margin-left: 0;
+    margin-left: 31px;
+    height: 330px; } }

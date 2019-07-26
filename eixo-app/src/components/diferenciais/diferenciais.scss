@@ -1,0 +1,92 @@
+.diferenciais{
+    width: 100%;
+    height: 200px;
+    font-family: Roboto-Regular;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    z-index: 82;
+    position: relative;
+
+    .diferencial.diferencial-1{
+        color:#4C97BB;
+        width: 30%;
+
+        .diferencial-img{
+            background-image: url(../../images/Group215.png);
+        }
+
+        .diferencial-numero, .diferencial-numero-legenda, .diferencial-desc{
+            margin-left: calc(70% - 85px);
+        }
+    }
+    .diferencial.diferencial-2{
+        color:#7AC5C5;
+        width: 20%;
+
+        .diferencial-img{
+            background-image: url(../../images/Group217.png);
+            background-position: 0 9px;
+            background-size: 102% 82%;
+        }
+
+        .diferencial-numero, .diferencial-numero-legenda, .diferencial-desc{
+            margin-left: calc(54% - 85px);
+        }
+    }
+    .diferencial.diferencial-3{
+        color:#659DCC;
+        width: 20%;
+
+        .diferencial-img{
+            background-image: url(../../images/Group219.png);
+        }
+    }
+    .diferencial.diferencial-4{
+        color:#F5AD9E;
+        width: 30%;
+
+        .diferencial-img{
+            background-image: url(../../images/Group315.png);
+            background-position: 0 -6.5px;
+            background-size: 102% 98%;
+        }
+
+        .diferencial-numero, .diferencial-numero-legenda, .diferencial-desc{
+            margin-left: calc(40% - 85px);
+        }
+    }
+
+    .diferencial{
+        text-align: center;
+
+        .diferencial-img{
+            height: 90px;
+            background-size: 102% 80%;
+            background-position: 0 10px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .diferencial-numero{
+            font-size: 34px;
+            width: 170px;
+            margin-left: calc(50% - 85px);
+            height: 40px;
+        }
+
+        .diferencial-numero-legenda{
+            font-size: 17px;
+            width: 170px;
+            margin-left: calc(50% - 85px);
+            height: 60px;
+        }
+
+        .diferencial-desc{
+            font-size: 12px;
+            width: 170px;
+            font-family: Roboto-Light;
+            margin-left: calc(50% - 85px);
+        }
+    }
+}

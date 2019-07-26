@@ -1,0 +1,78 @@
+.diferenciais.area{
+  width: 100%;
+   color: white;
+   padding-top: 0px;
+
+  .diferencial-1{
+    padding: 0;
+    background-image: linear-gradient(133deg, #56AAD5, #4284A0);
+
+    .diferencial-img{
+       background-image: url(../../images/ilustra1.png);
+    }
+  }
+
+  .diferencial-2{
+   padding: 0;
+   background-image: linear-gradient(133deg, #91CBCB, #1DAFAF);
+
+   .diferencial-img{
+      background-image: url(../../images/ilustra2.png);
+   }
+ }
+
+ .diferencial-3{
+   padding: 0;
+   background-image: linear-gradient(133deg, #91CBCB, #639BCC);
+
+   .diferencial-img{
+      background-image: url(../../images/ilustra3.png);
+   }
+ }
+
+ .diferencial-4{
+   padding: 0;
+   background-image: linear-gradient(133deg, #EEC2C3, #F5AD9E);
+
+   .diferencial-img{
+      background-image: url(../../images/ilustra4.png);
+      background-size: unset;
+      background-position: center;
+   }
+ }
+
+ .diferenciais{
+    height: 300px;
+    padding: 20px 0px;
+    z-index: 82;
+ }
+
+  .diferencial-img{
+   height: 90px;
+   background-size: 102% 80%;
+   background-position: 0 10px;
+   width: 100%;
+   background-repeat: no-repeat;
+}
+
+.diferencial-numero{
+   font-size: 34px;
+   width: 170px;
+   margin-left: calc(50% - 85px);
+   height: 40px;
+}
+
+.diferencial-numero-legenda{
+   font-size: 17px;
+   width: 170px;
+   margin-left: calc(50% - 85px);
+   height: 60px;
+}
+
+.diferencial-desc{
+   font-size: 12px;
+   width: 170px;
+   font-family: Roboto-Light;
+   margin-left: calc(50% - 85px);
+}
+}
